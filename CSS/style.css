@@ -1,0 +1,340 @@
+/* Resert */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* logo */
+
+
+header{
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/* Tipografia General */
+
+body{
+    font-family: 'Gayathri', sans-serif;
+
+
+}
+
+
+.nav-link{
+        color: white;
+}
+
+/*Estilo a los beneficios de index */
+
+.contenedorcinco{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+
+.contenedorcinco figure{
+  position:relative;
+  height: 250px;
+  cursor: pointer;
+  width: 350px;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+  margin: 20px;
+}
+
+
+.contenedorcinco figure img{
+  width: 100%;
+  height: 100%;
+  transition: all 400ms ease-out;
+  will-change: transform;
+}
+.contenedorcinco figure .capa{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,103,123,0.7);
+  transition: all 400ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+ text-align: center;
+}
+.contenedorcinco figure:hover > .capa {
+  opacity: 1;
+  visibility: visible;
+}
+.contenedorcinco figure:hover > .capa h3{
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+.contenedorcinco figure:hover > img{
+  transform: scale(1.3);
+}
+.contenedorcinco figure .capa h3{
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 400ms ease-out;
+   margin-top: 30px;
+}
+.contenedorcinco figure .capa p{
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 220px;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .contenedor figure{
+      width: 80%;
+  }
+}
+
+/* Estilo de Prensa */
+
+.pre01{
+  text-align: justify;
+  padding: 40px;
+}
+
+.pre02{
+  text-align: center;
+  padding: 40px;
+}
+
+.pre03{
+  text-align: center;
+  padding: 20px;
+}
+
+button.btn {
+  width: 100px; /* Establece el ancho del botón */
+  text-align: center; /* Centra el texto */
+  justify-content: center;
+  display: flex;
+}
+
+/* Reglas para tamaño de pantalla pequeño */
+
+@media screen and (max-width: 767px) {
+  table {
+    width: 100%;
+  }
+  th, td {
+    padding: 10px;
+  }
+}
+
+/* Reglas para tamaño de pantalla grande */
+
+@media screen and (min-width: 768px) {
+  table {
+    width: 75%;
+  }
+  th, td {
+    padding: 20px;
+  }
+}
+
+
+
+
+
+
+
+/* Estilo de nosotros */
+
+.banner .botonuno {
+	background: #FFD600;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+
+.pre04 {
+  padding: 20px;
+}
+ 
+
+/* Formulario de Contacto */
+
+.containerdos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+  }
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+input, textarea {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    width: 100%;
+  }
+
+input[type="submit"] {
+    background-color: lightblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+@media (min-width: 768px) {
+    .containerdos {
+      width: 500px;
+      margin: 0 auto;
+    }
+}
+
+
+.preguntas{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .containerdos {
+    flex-basis: 60%;
+  }
+  
+/* Estilo de mapa */
+
+  iframe {
+    flex-basis: 40%;
+  }
+
+
+
+/* Estilos de Pagina de Servicios */
+
+.contenedortres {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	gap: 20px;
+}
+
+.titulo {
+	font-size: 24px;
+	padding: 20px 0;
+}
+
+.contenedor-conciertos {
+	/* Grid */
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+
+}
+
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    
+}
+
+.card .textos {
+	height: 100%;
+	
+	/* Flebox */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.banner {
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	
+}
+
+.banner ul {
+	list-style: none;
+}
+
+.banner ul li {
+	margin: 15px;
+	font-weight: bold;
+}
+
+.banner .boton {
+	background: #FFD600;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+
+
+/* Estilos para el pie de página */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  }
+  
+  
+  
+  .fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  }
