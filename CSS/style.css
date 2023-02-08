@@ -106,20 +106,29 @@ body{
 
 /* Estilo de Prensa */
 
+.fondo02{
+  background: black;
+}
+
 .pre01{
   text-align: justify;
   padding: 40px;
+  color: whitesmoke;
 }
 
 .pre02{
   text-align: center;
   padding: 40px;
+  color: whitesmoke;
 }
 
 .pre03{
   text-align: center;
   padding: 20px;
+  color: whitesmoke;
 }
+
+
 
 button.btn {
   width: 100px; /* Establece el ancho del botón */
