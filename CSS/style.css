@@ -152,14 +152,11 @@ button.btn {
 
 
 
-
-
-
-
 /* Estilo de nosotros */
 
 .banner .botonuno {
 	background: #FFD600;
+  color: black;
 	display: block;
 	width: 100%;
 	font-weight: bold;
@@ -168,14 +165,42 @@ button.btn {
 	padding: 10px;
 	border: none;
 	border-radius: 100px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Gayathri', sans-serif;
 	cursor: pointer;
 }
 
-.pre04 {
+.pre05 {
+  text-align: justify;
   padding: 20px;
+  color: whitesmoke;
 }
- 
+
+.pre06{
+  text-align: justify;
+  padding: 10px;
+  color: white;
+}
+
+.pre07{
+  text-align: justify;
+  padding: 10px;
+  color:whitesmoke;
+}
+
+.pre08{
+  color: white;
+}
+
+.pre09{
+  color: black;
+}
+
+.fondo01{
+  background-image: url(/IMG/nosotrosomos.jpg);
+  background-size: cover;
+  opacity: 1.5;
+}
+
 
 /* Formulario de Contacto */
 
@@ -258,6 +283,7 @@ input[type="submit"] {
 }
 
 .contenedor-conciertos {
+
 	/* Grid */
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -318,7 +344,7 @@ input[type="submit"] {
 	padding: 10px;
 	border: none;
 	border-radius: 100px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Gayathri', sans-serif;
 	cursor: pointer;
 }
 
