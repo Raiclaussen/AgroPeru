@@ -330,9 +330,9 @@ input[type="submit"] {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+  }
 
-	
-}
+
 
 .banner ul {
 	list-style: none;
