@@ -226,12 +226,12 @@ button.btn {
 .form-group {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 
 label {
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
 
 input, textarea {
@@ -243,11 +243,11 @@ input, textarea {
   }
 
 input[type="submit"] {
-    background-color: lightblue;
-    color: white;
-    padding: 10px 20px;
+    background-color:#FFD600;
+    color: black;
+    padding: 5px 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     margin-top: 20px;
   }
@@ -261,20 +261,35 @@ input[type="submit"] {
 
 
 .preguntas{
-    display: flex;
+    display: inline;
     flex-direction: row;
   }
   
-  .containerdos {
+.containerdos {
     flex-basis: 60%;
+    padding: 20px;
   }
+
+.colum07{
+  padding: 25px;
+  margin: auto;
+}  
   
-/* Estilo de mapa */
 
-  iframe {
-    flex-basis: 40%;
-  }
 
+
+/* Estilos de mapa de contactos */
+
+.pre10{
+  color: black;
+  
+}
+
+iframe{
+  border: 1px black;
+  width: auto;
+  padding: 10px;
+}
 
 
 /* Estilos de Pagina de Servicios */
